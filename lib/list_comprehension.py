@@ -12,6 +12,13 @@ pass
 def make_exclamation(sentence_list):
     return [sentence + "!" for sentence in sentence_list]
 
+sentence_list = [
+    "I like programming",
+    "Python is great",
+    "I love learning new things"
+]
 
-print(make_exclamation)
+exclaimed_sentences = make_exclamation(sentence_list)
+
+print(exclaimed_sentences)
 pass
